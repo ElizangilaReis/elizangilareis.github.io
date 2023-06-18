@@ -41,6 +41,8 @@ span{
 p{
     padding: 10px;
 }
+
+/* Menu */
 #menu{
     float: right;
     width: 20%;
@@ -74,6 +76,16 @@ p{
 .menu-toggle{
     display: none;
 }
+
+@media (max-width: 600px) {
+    .menu-lista {
+      display: none;
+    }
+    
+    .menu-toggle {
+      display: block;
+    }
+  }
 
 /* logo */
 .logo{
