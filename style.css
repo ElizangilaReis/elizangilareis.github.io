@@ -9,7 +9,7 @@
 header{
     background-color: white;
     height: 100px;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* divs */
@@ -17,16 +17,35 @@ header{
     width: 80%;
     font-size: 1.2em;
     margin: auto;
+    margin-left: auto;
+    margin-left: auto;
     clear: both;
 
     /*ajuda o site a ser responsivo*/
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.5rem 0;
 }
 
+h1, h2{
+    padding: 10px;
+}
+
+
+span{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
 #menu{
     float: right;
-    margin-top: 20px;
+    width: 20%;
+    height: 100%;
+    margin-top: 0;
 }
 
 #menu a{
@@ -39,8 +58,22 @@ header{
 #menu a:hover{
     background-color: #f8efed;
     color: white;
+}*/
+
+.menu-lista{
+    list-style: none;
+    margin: 20px;
+    padding: 50px;
 }
 
+.menu-lista li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-toggle{
+    display: none;
+}
 
 /* logo */
 .logo{
@@ -56,11 +89,13 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding: 10px;
+    padding: 010px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     min-height: 100vh;
     padding-bottom: 100px;
+    line-height: 1;
+    display: block;
 }
 
 img{
@@ -68,40 +103,38 @@ img{
     height: auto;
 }
 
+img.perfil{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+
 /* Responsividade do site */
-@media (max-width: 480px) {
-    :root {
-        font-size:55%
-    }
-}
 
-@media (max-width: 860px) {
-    :root {
-        font-size:57%
-    }
-}
 
-@media (max-width: 992px) {
-    :root {
-        font-size:59%
-    }
-}
-
-@media (max-width: 1200px) {
-    :root {
-        font-size:61%
-    }
-}
 
 /* Rodape */
 #rodape{
     clear: both;
-    border-top: 1px solid;
     position: absolute;
-    bottom: 0%;
-    margin: 100px;
+    bottom: -50%;
+    margin: 0;
+    background-color: white;
+    padding: 50px 0 0;
+    padding-bottom: 10%;
+    width: 100%;
+    border: none;
+
 }
 
 #rodape p{
     text-align: center;
+    clear: both;
+}
+
+.logo-footer{
+    width: 50px;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px;
 }
