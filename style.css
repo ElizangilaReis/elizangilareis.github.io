@@ -847,6 +847,9 @@ body.light-mode {
 body.light-mode header {
     background-color: white
 }
+body.light-mode footer {
+    background-color: white
+}
 
 body.light-mode header h2 {
     color: #FFC0CB!important
