@@ -103,7 +103,7 @@ const initTypingAnimation = () => {
       })
 
     } else if (element == span) {
-      element.innerHTML = 'Elizangila Reis :)'
+      element.innerHTML = 'Elizangila Reis'
       const textToArray = element.innerHTML.split('')
       element.innerHTML = ''
 
@@ -112,7 +112,7 @@ const initTypingAnimation = () => {
       })
 
     } else {
-      element.innerHTML = 'Desenvolvedora Backend e Front-End Junior'
+      element.innerHTML = 'Programadora Back-End e Front-End Júnior'
       const textToArray = element.innerHTML.split('')
       element.innerHTML = ''
 

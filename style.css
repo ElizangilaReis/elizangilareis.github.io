@@ -556,7 +556,6 @@ section#skills .skills .container .cards {
 section#skills .skills .container .cards .box {
     position: relative;
     text-align: center;
-    background-color: #212121;
     width: 12rem;
     aspect-ratio: 1;
     padding: 0;
@@ -587,7 +586,7 @@ section#skills .skills .container .cards .box::after {
     position: absolute;
     width: 100%;
     height: 0.3rem;
-    background-image: linear-gradient(90deg, #FFC0CB 0%, #A40EE4 92.32%);
+    background-image: linear-gradient(90deg, #FFC0CB 0%, rgba(105, 159, 209, 0.68));
     bottom: -0.1rem;
     left: 0
 }
@@ -599,7 +598,7 @@ section#skills .skills .container .cards .box:hover {
 section#projects .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 3.2rem;
-    color: #F9F9F9;
+    color: black;
     font-weight: 600;
     text-align: center
 }
@@ -608,7 +607,7 @@ section#projects .container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 2.4rem;
-    color: #F9F9F9;
+    color: black;
     position: relative;
     display: inline-block;
     margin-block:10rem 5rem}
@@ -846,11 +845,11 @@ body.light-mode {
 }
 
 body.light-mode header {
-    background-color: #13131F
+    background-color: white
 }
 
 body.light-mode header h2 {
-    color: #F9F9F9 !important
+    color: #FFC0CB!important
 }
 
 body.light-mode .banner h1 {
