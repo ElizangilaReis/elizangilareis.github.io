@@ -73,7 +73,7 @@ a {
 
 @keyframes backgroundScale {
     to {
-        /*background-color: #8257E6;*/
+        background-color: #8257E6;
         transform: scale(1.1)
     }
 }
@@ -148,10 +148,10 @@ a {
 }
 
 body {
-    background-image: url(img/background_logo.png);
+    /*background-image: url(img/background_logo.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     padding: 010px;
     position: relative;
     min-height: 100vh;
@@ -841,7 +841,7 @@ body.transparent::after {
 }
 
 body.light-mode {
-    background-color: #F9F9F9
+    background-color: #13131F
 }
 
 body.light-mode header {
@@ -855,28 +855,28 @@ body.light-mode header h2 {
     color: #FFC0CB!important
 }
 
-body.light-mode .banner h1 {
-    color: #13131F !important
+body.light-mode .banner h1, p{
+    color: #ffffff !important
 }
 
 body.light-mode .banner span {
-    color: #13131F !important
+    color: #ffffff  !important
 }
 
 body.light-mode .banner .actions a:nth-child(2) {
-    color: #13131F !important
+    color: #ffffff  !important
 }
 
 body.light-mode .banner .actions a:nth-child(2):hover {
-    color: #F9F9F9 !important
+    color: #ffffff  !important
 }
 
 body.light-mode h2,body.light-mode h3 {
-    color: #13131F !important
+    color: #ffffff  !important
 }
 
 body.light-mode .contacts p {
-    color: #13131F !important
+    color: #ffffff  !important
 }
 
 body.light-mode .modal h2 {
