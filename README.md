@@ -1,6 +1,6 @@
 # Portfólio de Elizangila Reis
 
-![Portfolio Banner](link-para-seu-banner-imagem)
+![Portfolio Banner](https://github.com/ElizangilaReis)
 
 Bem-vindo ao meu portfólio! Este site é uma coleção de meus projetos e realizações como desenvolvedor(a) web. Aqui você encontrará exemplos do meu trabalho, informações sobre mim, e como me contatar.
 
